@@ -12,9 +12,22 @@
         		vertical-align: top;
         		width: 100%;
         	}
+        	img#responsive{
+        		display: none;
+        	}
+        	@media screen and (max-width : 768px){
+        		img {
+        			display: none;
+        		}
+
+        		img#responsive {
+        			display: block;
+        		}
+        	}
         </style>
     </head>
     <body>
+    	<img src="invie-responsive.jpg" id="responsive"/>
         <img src="header.jpg"/>
         <img src="hero.jpg"/>
         <img src="acustica.jpg"/>
